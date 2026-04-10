@@ -33,6 +33,16 @@ require("lazy").setup({
           enable = true,
           update_root = true,      -- Root follows the file if you jump via FZF
         },
+        renderer = {
+          icons = {
+            show = {
+              file = false,
+              folder = false,
+              folder_arrow = false,
+              git = false,
+            },
+          },
+        },
       })
     end,
   },
