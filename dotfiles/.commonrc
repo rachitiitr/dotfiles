@@ -1,0 +1,12 @@
+# Git aliases
+alias gc='git commit -m'
+alias gca='git commit --amend'
+alias gs='git status'
+alias gl='tig'
+alias gp='git push origin'
+alias grh='git reset HEAD'
+
+export PATH="$PATH:$HOME/.local/bin"
+
+export EDITOR=vim
+export USER_EMAIL=rachitjain2095@gmail.com

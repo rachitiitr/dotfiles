@@ -1,0 +1,12 @@
+[user]
+  name = Rachit Jain
+  email = rachitjain2095@gmail.com
+
+[alias]
+  # General
+  st = status
+  co = checkout
+  br = branch
+  ci = commit
+  df = diff
+  lg = log --oneline --graph --decorate --all
