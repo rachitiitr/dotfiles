@@ -17,7 +17,8 @@ require("lazy").setup({
   -- 1. The File Explorer (Nvim-Tree)
   {
     "nvim-tree/nvim-tree.lua",
-    version = "*",
+    -- Mainline nvim-tree requires Nvim >= 0.10; this tag supports Neovim 0.9.x.
+    tag = "compat-nvim-0.9",
     lazy = false,
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
