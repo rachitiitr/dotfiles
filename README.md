@@ -16,7 +16,7 @@ My personal dotfiles for a productive terminal environment.
 ## Install
 
 ```bash
-git clone git@github.com:rachitjain2095/rachit-dotfiles.git ~/rachit-dotfiles
+git clone git@github.com:rachitjain2095/dotfiles.git ~/rachit-dotfiles
 cd ~/rachit-dotfiles
 ./setup.sh
 ```
