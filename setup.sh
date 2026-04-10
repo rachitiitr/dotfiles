@@ -57,7 +57,7 @@ fi
 
 if [ ! -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
   echo "Installing zsh-autosuggestions..."
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" || echo "⚠️  zsh-autosuggestions already exists or clone failed, skipping."
 fi
 
 # ── fzf ───────────────────────────────────────────────────────────────────────
